@@ -1,3 +1,1 @@
 # W53-DYNAMIC-CONFIG
-
-test
