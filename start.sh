@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-wget $REMOTE_default -O /opt/app-root/src/conf/tmp.txt
+wget $REMOTE_APPSETTINGS -O /opt/app-root/src/conf/tmp.txt
 
 md5sum /opt/app-root/src/conf/tmp.txt > /opt/app-root/src/conf/tmp.txt.md5
 
